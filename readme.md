@@ -1,6 +1,6 @@
 # Dev Research
 
-> Road to Software Engineering Competence, A Zettlekasten
+> Road to Software Engineering Competence, A Zettelkasten
 
 Hey 👋🏽! This is a *Zettlekasten* to collect knowledge on different web development topics so I can be not just a competent engineer but a *good* one.
 
