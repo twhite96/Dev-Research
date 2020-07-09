@@ -1,15 +1,14 @@
-# React for beginners[[20200708231806]]
-
-- [React for beginners[[20200708231806]]](#react-for-beginnerskbd20200708231806kbd)
+# React for beginners
+- [React for beginners](#react-for-beginners)
   - [Props](#props)
-    - [What are props? [[javascript objects]]](#what-are-props-kbdjavascript-objectskbd)
+    - [What are props?](#what-are-props)
   - [Stateless Functional Components](#stateless-functional-components)
   - [Helper functions](#helper-functions)
 
 
 ## Props
 
-### What are props? [[javascript objects]]
+### What are props?
 - Way to get data from component to component
   - *State*: The home
   - *Props* a bus to get your state from component to component
