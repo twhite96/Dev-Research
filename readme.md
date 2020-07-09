@@ -6,13 +6,10 @@ Hey 👋🏽! This is a *Zettlekasten* to collect knowledge on different web dev
 
 Here you'll find notes from different courses, blog posts, and books I've read on the topic of React, web development, JavaScript, API design, and backend engineering, perhaps maybe even a little *DevOps*.
 
-You can jump around the site using the *Table of Contents* below.
+You can jump around the site using the *Wiki links* below.
 
-**TOC**
-- [Dev Research](#dev-research)
-  - [React for Beginners](#react-for-beginners)
+[React for Beginners](react-for-beginners.md)
 
-## [React for Beginners](react-for-beginners.md)
 
 
 
