@@ -1,8 +1,8 @@
-# Dev Research
+# Frontend Research for Leveling Up as an Engineer
 
-> Road to Software Engineering Competence, A Zettelkasten
+> Notes and knowledge from courses, books, and blog posts
 
-Hey 👋🏽! This is a *Zettlekasten* to collect knowledge on different web development topics so I can be not just a competent engineer but a *good* one.
+Hey 👋🏽! This is a *Zettelkasten* to collect knowledge on different web development topics so I can be not just a competent engineer but a *good* one.
 
 Here you'll find notes from different courses, blog posts, and books I've read on the topic of React, web development, JavaScript, API design, and backend engineering, perhaps maybe even a little *DevOps*.
 
