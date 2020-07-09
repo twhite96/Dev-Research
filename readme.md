@@ -1,6 +1,6 @@
-# Frontend Research for Leveling Up as an Engineer
+# Dev Research
 
-> Notes and knowledge from courses, books, and blog posts
+> Frontend Research for Leveling Up as an Engineer
 
 Hey 👋🏽! This is a *Zettelkasten* to collect knowledge on different web development topics so I can be not just a competent engineer but a *good* one.
 
