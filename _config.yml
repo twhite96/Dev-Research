@@ -1,3 +1,5 @@
 theme: jekyll-theme-minimal
 title: Dev Research
 description: Frontend Research for Leveling Up as an Engineer
+logo: https://res.cloudinary.com/twhiteblog/image/upload/v1594344481/dev-research-logo.png
+show_downloads: true
