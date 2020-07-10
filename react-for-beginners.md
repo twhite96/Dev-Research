@@ -4,6 +4,7 @@
     - [What are props?](#what-are-props)
   - [Stateless Functional Components](#stateless-functional-components)
   - [Helper functions](#helper-functions)
+  - [Events and Refs](#events-and-refs)
 
 
 ## Props
@@ -78,9 +79,64 @@ const Header = props => (
 ## Helper functions
 
 - little functions like counting money, etc that are not specific to React but are just plain JavaScript functions.
+- Difference between `export default` and named export
+  - named export:
 
 ```js
 export function rando(arr) {
   return arr[Math.floor(Math.random() * arr.length)];
 }
 ```
+- importing a named value:
+
+`import { rando } from '../helpers.js`
+- importing a default value:
+
+`import React from 'react'`
+
+- values of inputs *must always be attached to state*.
+- For default text use `defaultValue={rando()}`
+  - when the component is mounted to the page the default text will render inside the input
+
+## Events and Refs
+
+- Synthetic events work across browsers
+- Events are done inline:
+
+```js
+handleSubmit(e) {
+  e.preventDefault();
+  console.log('Going to store')
+}
+<button onClick={this.handleSubmit}>Click Me</button>
+```
+
+- Adding parens to `handleSubmit` would run the method when the component mounts (page load)
+- Getting text from input: `ref` or syncing stuff from state
+- Ref: reference a DOM node on the page:
+
+```js
+class StorePicker extends React.Component {
+  myInput = React.createRef();
+
+  handleSubmit(e) {
+   e.preventDefault();
+   console.log('Going to store')
+  }
+  render(){
+    return (
+      <form className="some-class" onSubmit={this.handleSubmit}>
+        <h2>Please enter a store</h2>
+        <input
+          type="text"
+          ref={this.myInput}
+          required
+          placeholder="Store Name"
+          defaultValue={rando()}
+        >
+      </form>
+    )
+  }
+}
+```
+
