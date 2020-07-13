@@ -6,6 +6,8 @@
   - [Before you apply](#before-you-apply)
   - [Resume](#resume)
   - [Experience](#experience)
+  - [To prepare](#to-prepare)
+  - [Prescreen](#prescreen)
 
 
 ## Inital phone screen
@@ -51,4 +53,37 @@
 - Have personal projects
   - Have a LinkedIn
   - Have a portfolio
-- 
+
+## To prepare
+- How many steps are in the interview
+- How big is the engineering team
+- Which team
+- What is your culture like
+- Who are your competitors
+- What sort of projects would I work on
+
+## Prescreen
+- difference between const let var
+- Explain prototypical inheritance
+- What is `this`
+  - The scope you're in but if it is not locally defined, `this` refers to the global object
+- What is the data structure of the DOM
+  - The DOM is a tree
+- What is a stack and a queue?
+  - Data structures
+  - stack
+    - Last in first out
+    - use an array `pop()`, `push()`
+  - queue
+    - first in first out
+  - Image loaded on page
+    - `onLoad` callback will be fired
+  - What is `call()` and `apply()`
+    - Ways of changing the scope of the calling function
+      - call: series of arguments
+      - apply: array of arguments
+  - Event delegation
+    - Have one event listener at the top when you click it bubbles up to the parent
+    - Event listeners are expensive (performance)
+  - What is a worker
+    - Worker is a thing in a browser to offload an expensive operation

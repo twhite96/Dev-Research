@@ -5,6 +5,7 @@
   - [Stateless Functional Components](#stateless-functional-components)
   - [Helper functions](#helper-functions)
   - [Events and Refs](#events-and-refs)
+  - [Handling Events](#handling-events)
 
 
 ## Props
@@ -112,6 +113,8 @@ handleSubmit(e) {
 ```
 
 - Adding parens to `handleSubmit` would run the method when the component mounts (page load)
+- How to get text from input?
+  - Cannot touch DOM
 - Getting text from input: `ref` or syncing stuff from state
 - Ref: reference a DOM node on the page:
 
@@ -139,4 +142,42 @@ class StorePicker extends React.Component {
   }
 }
 ```
+- `this` in a React components refers to *that exact component*
+- Built in methods built on `React.Component`
+  - Extended components not bound by default
+  - Can use `componentDidMount()` or use `this.handleSubmit.bind()`
 
+```js
+class StorePicker extends React.Component {
+  constructor() {
+    super();
+    {/* will bind `this` to this exact component */}
+    this.handleSubmit.bind(this);
+  }
+
+  handleSubmit(e) {
+   e.preventDefault();
+   console.log('Going to store')
+  }
+  render(){
+    return (
+      <form className="some-class" onSubmit={this.handleSubmit}>
+        <h2>Please enter a store</h2>
+        <input
+          type="text"
+          ref={this.myInput}
+          required
+          placeholder="Store Name"
+          defaultValue={rando()}
+        >
+      </form>
+    )
+  }
+}
+```
+- To access `this` inside a method use `bind(this)`
+- Create method with arrow function to avoid needing a constructor
+
+## Handling Events
+- `this.myInput.value.value` to grab events
+- 
