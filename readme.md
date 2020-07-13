@@ -11,6 +11,7 @@ Here you'll find notes from different courses, blog posts, and books I've read o
 You can jump around the site using the *Wiki links* below.
 
 [React for Beginners](react-for-beginners.md)
+[Interviewing for Frontend Engineers](interviewing-for-frontend-devs.md)
 
 
 
