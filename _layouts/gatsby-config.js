@@ -1,5 +1,5 @@
 module.exports = {
-  pathPrefix: `/dev-research`,
+  pathPrefix: `/`,
   siteMetadata: {
     title: `Dev Research`,
   },
@@ -7,7 +7,7 @@ module.exports = {
     {
       resolve: `gatsby-theme-garden`,
       options: {
-        rootNote: "/readme",
+        rootNote: "readme",
         contentPath: `${__dirname}/..`,
         ignore: [
           "**/_layouts/**",
