@@ -2,6 +2,6 @@
 
 (Coming soon)
 
-Previously: [[react-for-beginners.md]]
-For more, see also [[graphql.md]]
+Previously: [[react-for-beginners]]
+For more, see also [[graphql]]
 
