@@ -14,6 +14,7 @@ You can jump around the site using the *Wiki links* below.
 - [[interviewing-for-frontend-engineers]]
 - [[advanced-react]]
 - [[graphql]]
+- [[the-web-api-design-guidelines-for-happy-developers]]
 
 
 
