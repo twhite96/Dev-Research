@@ -1,4 +1,6 @@
 # React for beginners
+
+A refresher for intermediate React engineers.
 - [React for beginners](#react-for-beginners)
   - [Props](#props)
     - [What are props?](#what-are-props)
