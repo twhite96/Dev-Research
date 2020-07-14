@@ -8,6 +8,7 @@ A refresher for intermediate React engineers.
   - [Helper functions](#helper-functions)
   - [Events and Refs](#events-and-refs)
   - [Handling Events](#handling-events)
+- [State](#state)
 
 
 ## Props
@@ -182,4 +183,8 @@ class StorePicker extends React.Component {
 
 ## Handling Events
 - `this.myInput.value.value` to grab events
-- 
+
+# State
+- What is state
+  - object that holds data that it needs and its children need
+  - Just update the data/state and let React do the rest
