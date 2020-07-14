@@ -7,7 +7,14 @@
   max-width: 800px;
   font-size: 1.3rem;
 }
-
+p,
+a,
+ol,
+ul,
+li,
+blockquote {
+  font-size: 1.3rem;
+} 
 .markdown-body p {
   font-size: 1.3rem;
   line-height: 1.9em;
