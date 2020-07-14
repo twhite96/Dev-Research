@@ -164,6 +164,7 @@ function search(arr, num) {
       return true;
     }
   }
+  return false;
 }
 ```
 
