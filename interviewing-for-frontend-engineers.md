@@ -93,13 +93,16 @@ Hoisting of var
 - const object cannot be updated
   - properties of objects can be updatedconst object as this:
   - cannot do this:
+
 ```js
 const greeting = {
   words: "Hello",
   number: "five"
 }
 ```
-  - can do this: `greeting.message = "say Hello instead";`
+  - can do this: 
+
+`greeting.message = "say Hello instead";`
 - const declarations are hoisted to the top but are not initialized
 - Explain prototypical inheritance
   - A prototype is a working object instance. Objects inherit directly from other objects.
@@ -153,6 +156,7 @@ function search(arr, num) {
 ```
 ### Big Omega
 - The best case scenario for how long a function will take to run
+
 ```js
 function search(arr, num) {
   for (let i = 0; i < arr.length; i++) {
@@ -162,6 +166,7 @@ function search(arr, num) {
   }
 }
 ```
+
 - 1 for loop, return early
   - element at index 0 is best case
   - will return instantly
