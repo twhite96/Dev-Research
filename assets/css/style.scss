@@ -13,15 +13,17 @@ ol,
 ul,
 li,
 blockquote,
-h1,
-pre,
-code {
+h1 {
   font-size: 1.3rem;
 } 
 .markdown-body p {
   font-size: 1.3rem;
   line-height: 1.9em;
   margin-bottom: 1.2em;
+}
+
+pre > code {
+  font-size: 1.3rem;
 }
 
 .markdown-body li {
