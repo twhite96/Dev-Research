@@ -14,7 +14,12 @@ ul,
 li,
 blockquote {
   font-size: 1.3rem;
-} 
+}
+
+header > h1 > a {
+  font-size: 2rem;
+}
+
 .markdown-body p {
   font-size: 1.3rem;
   line-height: 1.9em;
