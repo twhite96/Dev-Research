@@ -17,10 +17,13 @@ blockquote {
 }
 
 header > h1 > a {
-  font-size: 1.7rem;
+  font-size: 2rem;
+  line-height: 1.5;
 }
 
-
+header > p {
+  line-height: 1.5;
+}
 
 .markdown-body p {
   font-size: 1.3rem;
