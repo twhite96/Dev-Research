@@ -25,6 +25,10 @@ header > p {
   line-height: 1.5;
 }
 
+footer > p {
+  display: none;
+}
+
 .markdown-body p {
   font-size: 1.3rem;
   line-height: 1.9em;
