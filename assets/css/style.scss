@@ -3,6 +3,7 @@
 
 @import "{{ site.theme }}";
 @import "pygments-dracula.css";
+@import "fira_code.css";
 .markdown-body {
   max-width: 800px;
   font-size: 1.3rem;
