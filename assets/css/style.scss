@@ -41,6 +41,16 @@ pre > code {
   font-family: 'Fira Code';
 }
 
+:not(pre)>code[class*="language-"],
+pre[class*="language-"] {
+    background: #F9F9F9;
+    border-radius: .3em;
+    color: #BF616A;
+    padding: .15em .2em .05em;
+    white-space: normal;
+    font-family: 'Fira Code', monospace;
+}
+
 .markdown-body li {
   line-height: 1.9em;
 }
