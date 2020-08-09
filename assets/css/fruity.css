@@ -1,24 +1,24 @@
 .highlight pre { background-color: #292a44; }
 .highlight .hll { background-color: #292a44 }
 .highlight .c { color: #6D6DB5; font-style: italic; background-color: #292a44 } /* Comment */
-.highlight .err { color: #ffffff } /* Error */
-.highlight .g { color: #ffffff } /* Generic */
+.highlight .err { color: #ff0007 } /* Error */
+.highlight .g { color: #FF6F9F } /* Generic */
 .highlight .k { color: #6DFEDF; font-weight: bold } /* Keyword */
-.highlight .l { color: #ffffff } /* Literal */
-.highlight .n { color: #ffffff } /* Name */
-.highlight .o { color: #ffffff } /* Operator */
-.highlight .x { color: #ffffff } /* Other */
-.highlight .p { color: #ffffff } /* Punctuation */
+.highlight .l { color: #FFDB7D } /* Literal */
+.highlight .n { color: #2DE0A7 } /* Name */
+.highlight .o { color: #7AA5FF } /* Operator */
+.highlight .x { color: #F92672 } /* Other */
+.highlight .p { color: #d8d8d8 } /* Punctuation */
 .highlight .cm { color: #6D6DB5; font-style: italic; background-color: #292a44 } /* Comment.Multiline */
 .highlight .cp { color: #ff0007; font-weight: bold; font-style: italic; background-color: #292a44 } /* Comment.Preproc */
 .highlight .c1 { color: #6D6DB5; font-style: italic; background-color: #292a44 } /* Comment.Single */
 .highlight .cs { color: #6D6DB5; font-style: italic; background-color: #292a44 } /* Comment.Special */
 .highlight .gd { color: #ffffff } /* Generic.Deleted */
 .highlight .ge { color: #ffffff } /* Generic.Emph */
-.highlight .gr { color: #ffffff } /* Generic.Error */
+.highlight .gr { color: #ff0007 } /* Generic.Error */
 .highlight .gh { color: #ffffff; font-weight: bold } /* Generic.Heading */
 .highlight .gi { color: #ffffff } /* Generic.Inserted */
-.highlight .go { color: #444444; background-color: #222222 } /* Generic.Output */
+.highlight .go { color: #F92672; background-color: #F92672 } /* Generic.Output */
 .highlight .gp { color: #ffffff } /* Generic.Prompt */
 .highlight .gs { color: #ffffff } /* Generic.Strong */
 .highlight .gu { color: #ffffff; font-weight: bold } /* Generic.Subheading */
