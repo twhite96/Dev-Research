@@ -17,6 +17,17 @@ blockquote {
   font-size: 1.3rem;
 }
 
+blockquote {
+  margin-left: 3vw !important;
+  margin-right: 1vw !important;
+  max-width: 1080px !important;
+  padding-left: .5em !important;
+  position: relative !important;
+  border-left: 5px solid #06d7d9 !important;
+  font-style: italic !important;
+  color: #a1a1a7 !important;
+}
+
 header > h1 > a {
   font-size: 2rem;
   line-height: 1.5;
