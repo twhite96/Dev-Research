@@ -2,6 +2,7 @@
 .highlight, .highlight pre, .highlight table { background: #282a36 !important; color: #f8f8f2 !important; }
 .highlight .hll { background-color: #ffffcc !important; }
 .highlight { background: #282a36 !important; color: #f8f8f2 !important; background-color: #282a36 !important; }
+.highlight .dl { background: #282a36 !important; color: #f8f8f2 !important; background-color: #282a36 !important; }
 .highlight .c { color: #6272a4 !important; background-color: #282a36 !important; } /* Comment */
 .highlight .err { color: #f8f8f2 !important; background-color: #282a36 !important; } /* Error */
 .highlight .g { color: #f8f8f2 !important; background-color: #282a36 !important; } /* Generic */
@@ -10,7 +11,7 @@
 .highlight .n, .highlight .h { color: #f8f8f2 !important; background-color: #282a36 !important; } /* Name */
 .highlight .o { color: #f8f8f2 !important; background-color: #282a36 !important; } /* Operator */
 .highlight .x { color: #f8f8f2 !important; background-color: #282a36 !important; } /* Other */
-.highlight .p { color: #f8f8f2 !important; background-color: #f5f5f5 !important; } /* Punctuation */
+.highlight .p { color: #f8f8f2 !important; background-color: #282a36 !important; } /* Punctuation */
 .highlight .cm { color: #6272a4 !important; background-color: #282a36 !important; } /* Comment.Multiline */
 .highlight .cp { color: #ff79c6 !important; background-color: #282a36 !important; } /* Comment.Preproc */
 .highlight .c1 { color: #6272a4 !important; background-color: #282a36 !important; } /* Comment.Single */
