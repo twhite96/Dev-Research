@@ -36,7 +36,7 @@
 .highlight .m { color: #bd93f9 !important; background-color: #282a36 !important; } /* Literal.Number */
 .highlight .s { color: #f1fa8c !important; background-color: #282a36 !important; } /* Literal.String */
 .highlight .na { color: #50fa7b !important; background-color: #282a36 !important; } /* Name.Attribute */
-.highlight .nb { color: #e4467b !important; background-color: #282a36 !important; } /* Name.Builtin */
+.highlight .nb { color: #ff7953 !important; background-color: #282a36 !important; } /* Name.Builtin */
 .highlight .nc { color: #f8f8f2 !important; background-color: #282a36 !important; } /* Name.Class */
 .highlight .no { color: #f8f8f2 !important; background-color: #282a36 !important; } /* Name.Constant */
 .highlight .nd { color: #f8f8f2 !important; background-color: #282a36 !important; } /* Name.Decorator */
