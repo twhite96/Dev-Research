@@ -45,7 +45,7 @@
 .highlight .nf { color: #50fa7b !important; background-color: #282a36 !important; } /* Name.Function */
 .highlight .nl { color: #f1fa8c !important; background-color: #282a36 !important; } /* Name.Label */
 .highlight .nn { color: #f8f8f2 !important; background-color: #282a36 !important; } /* Name.Namespace */
-.highlight .nx { color: #f8f8f2 !important; background-color: #282a36 !important; } /* Name.Other */
+.highlight .nx { color: #06d7d9 !important; background-color: #282a36 !important; } /* Name.Other */
 .highlight .py { color: #f8f8f2 !important; background-color: #282a36 !important; } /* Name.Property */
 .highlight .nt { color: #ff79c6 !important; background-color: #282a36 !important; } /* Name.Tag */
 .highlight .nv { color: #8be9fd !important; font-style: italic !important; background-color: #282a36 !important; } /* Name.Variable */
