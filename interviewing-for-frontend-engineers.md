@@ -76,6 +76,7 @@
   - The scope is global when a var variable is declared outside a function.
   - var is function scoped when it is declared within a function. 
   - This means that we can do this within the same scope and won't get an error:
+  
   ```js
   var greeter = "hey hi";
   var greeter = "say Hello instead";
@@ -83,6 +84,7 @@
   var greeter = "hey hi";
   greeter = "say Hello instead";
   ```
+  
 - var variables can be re-declared and updated
 Hoisting of var
 - var variables are hoisted to the top of their scope and initialized with a value of undefined.
