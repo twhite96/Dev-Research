@@ -26,8 +26,8 @@ You can jump around the site using the *Wiki links* below.
 ## Math/Programming Explorations
 > Progamming has made me better at math. So now I want to explore the connection betweeen math and programming.
 
-[[Mathematical Composite Functions]]
-[[Function Composition]]
+- [[Mathematical Composite Functions]]
+- [[Function Composition]]
 
 
 
