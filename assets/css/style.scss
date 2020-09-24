@@ -8,6 +8,14 @@
   max-width: 800px;
   font-size: 1.3rem;
 }
+:root {
+  --primary-color: #06d7d9;
+}
+
+::selection {
+  background: var(--primary-color);
+}
+
 p,
 a,
 ol,
