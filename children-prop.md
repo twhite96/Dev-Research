@@ -10,7 +10,7 @@ ex:
       return (
         <div
           className='VendingMachine'
-          style={{ backgroundImage: `url(${vendingMachineImg})` }}
+          style={{ backgroundImage: 'url(https://media.giphy.com/media/13borq7Zo2kulO/giphy.gif)' }}
         >
         <Message>
           <h1>hello i am a vending machine. what would you like to eat?</h1>
