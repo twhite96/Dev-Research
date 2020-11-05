@@ -8,7 +8,7 @@ For more, see also:
 - [[GraphQL]]
 - [[Testing React Apps]]
 - [[Hooks]]
-- [[Children Prop]]
+- [[children-prop]]
 
 
 
@@ -21,6 +21,7 @@ Some of the more advanced topics for React would be [[prop drilling]] which lead
 [GraphQL]: graphql "GraphQL Course"
 [Testing React Apps]: testing-react-apps "Testing React Applications"
 [Hooks]: hooks "React Hooks"
+[children-prop]: children-prop "Children Prop"
 [prop drilling]: prop-drilling "Prop Drilling"
 [Context]: context "Context"
 [state management]: state-management "State Management"
